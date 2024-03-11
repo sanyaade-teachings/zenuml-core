@@ -63,7 +63,9 @@
             :style="{ paddingLeft: `${offsetX}px` }"
             :context="finallyBlock"
             :selfCallIndent="selfCallIndent"
-            :number="`${number}.${blockLengthAcc[blockLengthAcc.length - 1] + 1}`"
+            :number="`${number}.${
+              blockLengthAcc[blockLengthAcc.length - 1] + 1
+            }`"
             incremental
           ></block>
         </div>
